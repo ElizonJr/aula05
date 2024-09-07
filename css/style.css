@@ -1,0 +1,26 @@
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+    background: #289728;
+    height: 100vh;
+  }
+  /* Style the navigation menu */
+nav {
+    -webkit-flex: 7;
+    -ms-flex: 7;
+    flex: 7;
+    background:  #f1f1f1;
+    padding: 0px;
+    height: 100vh;
+  }
+
+  /* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color:  #972b28;
+    padding: 0px;
+    height: 100vh;
+  }
